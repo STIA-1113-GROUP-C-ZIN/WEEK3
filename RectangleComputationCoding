@@ -1,0 +1,18 @@
+package numericalData;
+
+public class RectangleComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double length, width, area, perimeter;
+		length = 50;
+		width = 25.5;
+		area = length*width;
+		perimeter = (length*2)+(width*2);
+		
+		System.out.println("The area is "+area);
+		System.out.println("The perimeter is "+perimeter);
+
+	}
+
+}
